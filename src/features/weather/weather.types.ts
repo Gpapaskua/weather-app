@@ -59,7 +59,3 @@ export interface IWeatherData {
   name: string;
   cod: number;
 }
-
-export interface IWeatherHighlights {
-  data: Pick<IWeatherData, "sys" | "wind" | "main" | "visibility">;
-}

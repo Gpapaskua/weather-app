@@ -18,8 +18,8 @@ function App() {
   });
 
   return (
-    <div className="flex min-h-[100vh] bg-gray-100">
-      <div className="w-[20rem] min-w-[20rem] pt-4 px-8 bg-white">
+    <div className="flex flex-col md:flex-row min-h-[100vh] bg-gray-100">
+      <div className="w-full md:w-[20rem] md:min-w-[20rem] pt-4 px-8 bg-white pb-8">
         <form onSubmit={(e) => e.preventDefault()}>
           <div className="relative">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
